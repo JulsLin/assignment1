@@ -3,15 +3,20 @@
 body {
   background-color: #f3e9de;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr;
   align-content: stretch;
+  margin: 0px;
+  padding: 0px;
 }
 
 .nav {
   background-color: #faf4ec;
   color: #256993;
   font-family: 'Roboto Condensed', sans-serif;
-  grid-column: 1/5;
+  height: 100vh;
+  position: fixed;
+  width: 25%;
 }
 
 .nav > h2 {
@@ -24,6 +29,11 @@ main {
 }
 
 main > h2 {
+    color: #256993;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.footer {
     color: #256993;
     font-family: 'Roboto Condensed', sans-serif;
 }
