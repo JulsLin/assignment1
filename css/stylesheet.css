@@ -36,4 +36,10 @@ main > h2 {
 .footer {
     color: #256993;
     font-family: 'Roboto Condensed', sans-serif;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
 }
+
+@media only screen and (min-width: 600px)
