@@ -54,5 +54,33 @@ aside > ul {
   text-align: center;
 }
 
+.notes {
+  background-color: #375F68;
+  color: white;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.theme {
+  background-color: #56536A;
+  color: white;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.save {
+  background-color: #375F68;
+  color: white;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.cancel {
+  background-color: #9B332C;
+  color: white;
+  border-radius: 8px;
+  padding: 5px;
+}
+
 @media only screen and (min-width: 600px) {
 }
