@@ -82,5 +82,14 @@ aside > ul {
   padding: 5px;
 }
 
+.dark-theme {
+  background-color: #3B3923;
+  color: white
+}
+
+.nav-dark-theme {
+  background-color: #736F4E;
+}
+
 @media only screen and (min-width: 600px) {
 }
