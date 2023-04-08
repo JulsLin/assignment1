@@ -52,10 +52,15 @@ const notesArray = [
 ]
 
 // Show a prompt to the user and ask for the title of the note
-save.addEventListener("click", () => {
+//add a list item to the sidebar with the title
+save.addEventListener("click", function() {
     const title = prompt("Please enter a title for your notes:");
-    const body = textArea.value;
-    const note = {title, body};
-    notesArray.push(note);
+    const newNote = {title: title, body: textArea.value};
+    notesArray.push(newNote);
+    const newListItem = document.createElement("li");
+    newListItem.textContent = title;
+    sidebar.firstElementChild.appendChild(newListItem);
 })
+
+const sidebar = document.querySelector('.noteslist');
 
